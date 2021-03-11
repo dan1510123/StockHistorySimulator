@@ -3,7 +3,7 @@ from Bots.SimpleBot.SimpleBot import SimpleBot
 
 def main():
     bot = SimpleBot()
-    sim = AdvancedSimulatorGUI(1000, '11-1-2020', 0.10, 0.05, bot, exclude=['DNB','BBBY'])
+    sim = AdvancedSimulatorGUI(1000, '1-1-2021', 0.10, 0.05, bot)
 
 if __name__ == '__main__':
     main()
